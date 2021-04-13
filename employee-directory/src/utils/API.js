@@ -1,9 +1,11 @@
 import axios from "axios";
-const BASEURL = "https://www.omdbapi.com/?t=";
-const APIKEY = "&apikey=trilogy";
 
+const BASEURL = "https://randomuser.me/api/?results=200&nat=us&inc=name,location,picture";
+// const APIKEY = "";
+
+// Export an object with a "search" method that searches the Giphy API for the passed query
 export default {
   search: function(query) {
-    return axios.get(BASEURL + query + APIKEY);
+    return axios.get(BASEURL + query);
   }
 };
