@@ -2,16 +2,16 @@ import React from 'react';
 
 const ResultList = (props) => {
   return (
-    <table className="table table-dark">
+    <table className="table table-dark table-striped table-bordered table-sm" cellspacing="0" width="100%">
       <thead>
         <tr>
-          <th scope="col"></th>
-          <th scope="col">First Name</th>
-          <th scope="col" onClick={props.handleSort}>
-            Last Name
+          <th scope="col" className="th-sm"></th>
+          <th scope="col" className="th-sm">First Name</th>
+          <th scope="col" className="th-sm" onClick={props.handleSort}>
+            Last Name <i class="fas fa-sort"></i>
           </th>
-          <th scope="col">Email</th>
-          <th scope="col">Phone Number</th>
+          <th scope="col" className="th-sm">Email</th>
+          <th scope="col" className="th-sm">Phone Number</th>
         </tr>
       </thead>
       <tbody>
@@ -21,7 +21,7 @@ const ResultList = (props) => {
             return (
               <tr>
                 <td>
-                  <img src={employee.picture.large} alt="Photo of employee" />
+                  <img src={employee.picture.large} alt="employee headshot" />
                 </td>
                 <td>{employee.name.first}</td>
                 <td>{employee.name.last}</td>

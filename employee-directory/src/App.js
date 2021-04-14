@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import SearchResultContainer from './components/SearchResultContainer';
 import NavBar from './components/NavBar';
 import ResultList from './components/ResultList';
 import API from './utils/API';
