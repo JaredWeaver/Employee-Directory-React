@@ -14,11 +14,11 @@ class SearchResultContainer extends Component {
     this.searchGiphy("kittens");
   }
 
-  searchGiphy = query => {
-    API.search(query)
-      .then(res => this.setState({ results: res.data.data }))
-      .catch(err => console.log(err));
-  };
+  // searchGiphy = query => {
+  //   API.search(query)
+  //     .then(res => this.setState({ results: res.data.data }))
+  //     .catch(err => console.log(err));
+  // };
 
   handleInputChange = event => {
     const name = event.target.name;
