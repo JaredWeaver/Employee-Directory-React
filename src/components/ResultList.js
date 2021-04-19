@@ -2,9 +2,10 @@ import React from 'react';
 
 const ResultList = (props) => {
   return (
+    
     <table
       className="table table-dark table-striped table-bordered table-sm"
-      cellspacing="0"
+      cellSpacing="0"
       width="100%"
     >
       <thead>
@@ -14,7 +15,7 @@ const ResultList = (props) => {
             First Name
           </th>
           <th scope="col" className="th-sm" onClick={props.handleSort}>
-            Last Name <i class="fas fa-sort"></i>
+            Last Name <i className="fas fa-sort"></i>
           </th>
           <th scope="col" className="th-sm">
             Email
