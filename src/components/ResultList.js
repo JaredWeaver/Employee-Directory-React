@@ -2,7 +2,6 @@ import React from 'react';
 
 const ResultList = (props) => {
   return (
-    
     <table
       className="table table-dark table-striped table-bordered table-sm"
       cellSpacing="0"
@@ -28,7 +27,6 @@ const ResultList = (props) => {
       <tbody>
         {props.employees.length > 0 ? (
           props.employees.map((employee) => {
-            console.log(employee);
             return (
               <tr>
                 <td>

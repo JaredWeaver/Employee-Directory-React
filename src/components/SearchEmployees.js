@@ -1,5 +1,3 @@
-import React from 'react';
-
 const SearchEmployees = (props) => {
   return (
     <form className="bg-dark mr-3">
@@ -11,16 +9,16 @@ const SearchEmployees = (props) => {
           name="input"
           type="text"
           className="form-control bg-dark text-light"
-          placeholder="Find Employees"
+          placeholder="Find Employees by Last Name"
           id="search"
           key={props.key}
         />
-        <button
+        {/* <button
           onClick={props.handleFormSubmit}
           className="btn btn-success float-right"
         >
           Search
-        </button>
+        </button> */}
       </div>
     </form>
   );
