@@ -10,7 +10,8 @@ function NavBar(props) {
 
 const headingStyle = {
   color: 'white',
-  fontSize: '36px'
+  fontSize: '52px'
+
 };
 
 export default NavBar;

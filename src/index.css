@@ -1,3 +1,11 @@
 body {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Raleway', sans-serif;
+}
+
+table {
+    font-size: 28px;
+}
+
+.icon:hover{
+    opacity: .2 ;
 }

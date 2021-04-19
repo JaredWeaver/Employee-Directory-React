@@ -13,8 +13,8 @@ const ResultList = (props) => {
           <th scope="col" className="th-sm">
             First Name
           </th>
-          <th scope="col" className="th-sm" onClick={props.handleSort}>
-            Last Name <i className="fas fa-sort"></i>
+          <th scope="col" className="th-sm">
+            Last Name <i className="fas fa-sort icon" onClick={props.handleSort}></i>
           </th>
           <th scope="col" className="th-sm">
             Email
