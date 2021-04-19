@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,KACE,gCACF,CAEA,MACI,cACJ,CAEA,YACI,UACJ","file":"main.969bb1a9.chunk.css","sourcesContent":["body {\r\n  font-family: 'Raleway', sans-serif;\r\n}\r\n\r\ntable {\r\n    font-size: 28px;\r\n}\r\n\r\n.icon:hover{\r\n    opacity: .2 ;\r\n}"]}
